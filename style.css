@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.main{
+    width: 50%;
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#questionA, #questionB, #questionC, #questionD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: bisque;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 0 5px 5px rgb(167, 164, 164);
+}
+
+.box, .box1, .box2, .box3{
+    width: 25px;
+    height: 25px;
+    border: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(4px) rotate(0deg);
+    transition: .3s;
+}
+
+.box.active, .box1.active, .box2.active, .box3.active{
+    transform: translateY(4px) rotate(90deg);
+    transition: .3s;
+}
+
+
+#cross, #cross1, #cross2, #cross3{
+    background-color: blue;
+    height: 15px;
+    position: relative;
+    width: 2px;
+
+}
+
+#cross:after, #cross1:after, #cross2:after, #cross3:after{
+    background-color: blue;
+    content: "";
+    height: 2px;
+    position: relative;
+    width: 15px;
+    position: absolute;
+    left: -6px;
+    top: 6px;
+}
+
+#cross:hover, #cross1:hover, #cross2:hover, #cross3:hover{
+    cursor: pointer;
+
+}
+.hr, .hr1, .hr2, .hr3{
+    display: none;
+    width: 100%;
+    margin-top: 20px
+}
+
+.hr.active, .hr1.active, .hr2.active, .hr3.active{
+    display: block;
+}
+.para1, .para2, .para3, .para4{
+    display: none;
+    font-family: 'Lucida Sans';
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    
+}
+.para1.active, .para2.active, .para3.active, .para4.active{
+    display: block;
+}
+
+.hr.remove, .hr1.remove, .hr2.remove, .hr3.remove{
+    display: none;
+}
+.para1.remove, .para2.remove, .para3.remove, .para4.remove{
+    display: none;
+}
