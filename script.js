@@ -21,48 +21,22 @@ box.addEventListener("click", ()=>{
     para1.classList.toggle("active");
     line.classList.toggle("active");
     box.classList.toggle("active");
-    // para2.classList.toggle("remove");
-    // para3.classList.toggle("remove");
-    // para4.classList.toggle("remove");
-    // line1.classList.toggle("remove");
-    // line2.classList.toggle("remove");
-    // line3.classList.toggle("remove");
-    
-
 })
 
 box1.addEventListener("click", ()=>{
     para2.classList.toggle("active");
     line1.classList.toggle("active");
     box1.classList.toggle("active");
-    // para1.classList.toggle("remove");
-    // para3.classList.toggle("remove");
-    // para4.classList.toggle("remove");
-    // line.classList.toggle("remove");
-    // line2.classList.toggle("remove");
-    // line3.classList.toggle("remove");
 })
 
 box2.addEventListener("click", ()=>{
     para3.classList.toggle("active");
     line2.classList.toggle("active");
     box2.classList.toggle("active");
-//     para1.classList.toggle("remove");
-//     para2.classList.toggle("remove");
-//     para4.classList.toggle("remove");
-//     line1.classList.toggle("remove");
-//     line3.classList.toggle("remove");
-//     line.classList.toggle("remove");
  })
 
 box3.addEventListener("click", ()=>{
     para4.classList.toggle("active");
     line3.classList.toggle("active");
     box3.classList.toggle("active");
-//     para1.classList.toggle("remove");
-//     para2.classList.toggle("remove");
-//     para3.classList.toggle("remove");
-//     line.classList.toggle("remove");
-//     line1.classList.toggle("remove");
-//     line2.classList.toggle("remove");
  })
