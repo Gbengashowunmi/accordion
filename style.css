@@ -104,3 +104,10 @@ h1{
 .para1.remove, .para2.remove, .para3.remove, .para4.remove{
     display: none;
 }
+
+@media (max-width:600px){
+.main{
+    width: 80%;
+    
+}
+}
